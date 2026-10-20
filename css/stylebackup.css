@@ -1,0 +1,113 @@
+h1, .subtitle, .login{
+    text-align: center;
+}
+.form{
+    width: 100%;
+    max-width: 350px;
+    box-sizing: border-box;
+    padding: 20px;
+    justify-content: center;
+    margin: 0;
+
+}
+.contact{
+    background-color: rgb(39, 109, 109);
+    min-height: 70vh;
+    color: aliceblue;
+}
+.containers{
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    background-color: rgb(39, 109, 109);
+    border-radius: 16px;
+    box-shadow: 0 15px 40 px #0003; 
+}
+.about{
+    background-color: rgb(39, 109, 109);
+    min-height: 70vh;
+    color: aliceblue;
+}
+.services{
+    background-color: rgb(39, 109, 109);
+    min-height: 70vh;
+    color: aliceblue; 
+}
+.account{
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    background-color: rgb(39, 109, 109);
+    border-radius: 16px;
+    box-shadow: 0 15px 40 px #0003;
+}
+.input-group{
+    margin-top: 17px;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 7px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: bold;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dbe2ef;
+    border-radius: 8px;
+    outline: none;
+    transition: .3s;
+}
+.input-group input :focus{
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px #4f46e522;
+}
+.terms{
+    display: flex;
+    gap: 8px;
+    margin: 20 px 0;
+    color: #013536;
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    background: #4f46e5;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: #172554;
+}
+.login{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(39, 109, 109);
+    align-items: center;
+
+}
+.card{
+    background-color: rgb(9, 165, 165);
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transform: transform 0.5s;
+    text-align: center;
+
+}
+@media(max-width: 480px){
+    .container{
+        padding: 24px 18px;
+    }
+}
